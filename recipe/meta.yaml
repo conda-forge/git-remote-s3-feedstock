@@ -1,4 +1,3 @@
-{% set python_min = python_min|default("0.1a0") %}
 {% set name = "git-remote-s3" %}
 {% set version = "0.2.0" %}
 
@@ -21,7 +20,7 @@ build:
 
 requirements:
   host:
-    - python {{ python_min }}.*
+    - python {{ python_min }}
     - poetry-core
     - pip
   run:
@@ -39,7 +38,7 @@ test:
     - git-s3 --help
   requires:
     - pip
-    - python ={{ python_min }}
+    - python {{ python_min }}
 
 about:
   home: https://github.com/awslabs/git-remote-s3
