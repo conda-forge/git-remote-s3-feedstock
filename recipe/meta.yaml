@@ -1,5 +1,5 @@
 {% set name = "git-remote-s3" %}
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/git_remote_s3-{{ version }}.tar.gz
-  sha256: 49eb779df135240444c62cb3710af19775d419c304e6746ad05352fcec5e73ca
+  sha256: 18a42b269a0ea9dfe49f1d23dc61dfe0ad497efea11bcc80e75be250fc156abf
 
 build:
   entry_points:
