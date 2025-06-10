@@ -1,3 +1,0 @@
-# override default minimum because we need a newer version for this feedstock
-python_min:
-  - 3.10
