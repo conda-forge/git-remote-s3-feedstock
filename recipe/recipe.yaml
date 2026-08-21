@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: git-remote-s3
-  version: "0.3.2"
+  version: "0.4.2"
   python_min: '3.10'
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/git_remote_s3-${{ version }}.tar.gz
-  sha256: 92cab72ae2e50e53464780b0f25b5b03f3f51ced24f5ac71954ccea13b3bd886
+  sha256: b7b5075a4f7837518b2593aada0fd86271cab11aaccdd724af9060bba2faab09
 
 build:
   number: 0
